@@ -10,7 +10,7 @@ This project implements a book recommendation system using a Hybrid Approach tha
 
 ## Implementation
 ### Pipeline
-![Screenshot 2025-02-07 223823](https://github.com/user-attachments/assets/d69ab50f-968c-4c12-adfe-9482089def6e)
+![image](https://github.com/user-attachments/assets/7510862c-460b-410d-921e-f4e47deaf642)
 
 ### Data
 - Kaggle: https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
@@ -23,10 +23,12 @@ This project implements a book recommendation system using a Hybrid Approach tha
 
 #### Collaborative Filtering
 - Normalize pivot table of user and item
-![image](https://github.com/user-attachments/assets/ec7ca8ca-955f-4c3f-8840-262028791da7)
-link: https://machinelearningcoban.com/2017/05/24/collaborativefiltering/
+<img src="https://github.com/user-attachments/assets/ec7ca8ca-955f-4c3f-8840-262028791da7" width="300">
 
-
+https://machinelearningcoban.com/2017/05/24/collaborativefiltering/
 - Create user similar matrix by cosine similarity and use K Nearest Neighbor to get result
-## Product
+#### Hybrid
+- Get top movive from each teachnique and choose weights is 0.4 for **Collaborative** and 0.6 for **Content-Based**
+
+## Demo
 ![Screenshot 2025-02-07 224007](https://github.com/user-attachments/assets/89b246c4-b3d2-44e4-a6d8-caf9fddf6e99)
